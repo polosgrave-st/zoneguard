@@ -20,7 +20,7 @@
 
 // ---------------- PINS (GPIO numbers printed on the board) ----------------
 const int TRIG_PIN    = 4;
-const int ECHO_PIN    = 5;   // MUST go through the 3-resistor voltage divider!
+const int ECHO_PIN    = 5;   // sensor runs on 3.3V, so Echo connects directly
 const int SERVO_PIN   = 6;
 const int BUTTON_PIN  = 7;
 const int SDA_PIN     = 8;   // OLED
